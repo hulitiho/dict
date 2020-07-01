@@ -35,11 +35,8 @@ class ViewController: UIViewController {
         
         let randomImage = imageArray.randomElement()
         imageBackground.image = UIImage(named: randomImage!)
-
-
-      
-
-
+        
+    
     }
    
 
@@ -72,14 +69,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        if searching {
-            cell.textLabel?.text = searchArray[indexPath.row]
-
-        } else {
-            cell.textLabel?.text = imageArray[indexPath.row]
-
-        }
-        cell.backgroundColor = .white
+//        if searching {
+//            cell.textLabel?.text = searchArray[indexPath.row]
+//
+//        } else {
+//            cell.textLabel?.text = imageArray[indexPath.row]
+//
+//        }
+//        cell.backgroundColor = .white
          return cell
     }
     
