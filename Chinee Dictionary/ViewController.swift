@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+  
+    
+    
     @IBOutlet weak var SearchView: UIView!
     @IBOutlet weak var searchTF: UITextField!
     var searching  = false
@@ -28,17 +32,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
+        self.overrideUserInterfaceStyle = .light
+//        view.backgroundColor = UIColor.white
        tblView.delegate = self
         tblView.dataSource = self
         
         let randomImage = imageArray.randomElement()
         imageBackground.image = UIImage(named: randomImage!)
         
-    
+    setNavigationBar()
     }
    
+    
+    
+    
+    func  setNavigationBar () {
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.tintColor = .white
+    }
 
 
 }
@@ -58,17 +69,23 @@ extension ViewController : UISearchBarDelegate {
     
 }
 
+
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
+  
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if searching {
             return searchArray.count
         } else {
         return imageArray.count
         }
+      
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        self.overrideUserInterfaceStyle = .light
+
 //        if searching {
 //            cell.textLabel?.text = searchArray[indexPath.row]
 //

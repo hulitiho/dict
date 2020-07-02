@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D1510FE24AC37480062D699 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1510FD24AC37480062D699 /* Shadow.swift */; };
 		3D15110024AC46510062D699 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1510FF24AC46510062D699 /* TableViewCell.swift */; };
+		3D86B78E24AD8BB700056F9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B78D24AD8BB700056F9A /* DetailViewController.swift */; };
 		3DBA344B24A78C0F00BF3ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344A24A78C0F00BF3ADD /* AppDelegate.swift */; };
 		3DBA344D24A78C0F00BF3ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344C24A78C0F00BF3ADD /* SceneDelegate.swift */; };
 		3DBA344F24A78C0F00BF3ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344E24A78C0F00BF3ADD /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3D1510FD24AC37480062D699 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		3D1510FF24AC46510062D699 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3D86B78D24AD8BB700056F9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3DBA344724A78C0F00BF3ADD /* Chinee Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinee Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA344A24A78C0F00BF3ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DBA344C24A78C0F00BF3ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				3DBA344E24A78C0F00BF3ADD /* ViewController.swift */,
 				3D1510FD24AC37480062D699 /* Shadow.swift */,
 				3DBA345024A78C0F00BF3ADD /* Main.storyboard */,
+				3D86B78D24AD8BB700056F9A /* DetailViewController.swift */,
 				3D1510FF24AC46510062D699 /* TableViewCell.swift */,
 				3DBA345324A78C1200BF3ADD /* Assets.xcassets */,
 				3DBA345524A78C1200BF3ADD /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				3D15110024AC46510062D699 /* TableViewCell.swift in Sources */,
 				3DBA344F24A78C0F00BF3ADD /* ViewController.swift in Sources */,
 				3D1510FE24AC37480062D699 /* Shadow.swift in Sources */,
+				3D86B78E24AD8BB700056F9A /* DetailViewController.swift in Sources */,
 				3DBA344B24A78C0F00BF3ADD /* AppDelegate.swift in Sources */,
 				3DBA344D24A78C0F00BF3ADD /* SceneDelegate.swift in Sources */,
 			);
