@@ -9,7 +9,15 @@
 /* Begin PBXBuildFile section */
 		3D1510FE24AC37480062D699 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1510FD24AC37480062D699 /* Shadow.swift */; };
 		3D15110024AC46510062D699 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1510FF24AC46510062D699 /* TableViewCell.swift */; };
+		3D4BCB7624D3DB1300965B81 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BCB7224D3DB1200965B81 /* 3.json */; };
+		3D4BCB7724D3DB1300965B81 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BCB7324D3DB1200965B81 /* 1.json */; };
+		3D4BCB7824D3DB1300965B81 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BCB7424D3DB1300965B81 /* 2.json */; };
+		3D4BCB7924D3DB1300965B81 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D4BCB7524D3DB1300965B81 /* 4.json */; };
+		3D828BE724B9D66D006AB937 /* v83.1.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D828BE624B9D66D006AB937 /* v83.1.json */; };
+		3D828BE924B9D77D006AB937 /* DictionaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D828BE824B9D77D006AB937 /* DictionaryData.swift */; };
+		3D828BEB24B9DA12006AB937 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D828BEA24B9DA12006AB937 /* DataLoader.swift */; };
 		3D86B78E24AD8BB700056F9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86B78D24AD8BB700056F9A /* DetailViewController.swift */; };
+		3D99421124AEDC47002B444A /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D99421024AEDC47002B444A /* HistoryTableViewController.swift */; };
 		3DBA344B24A78C0F00BF3ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344A24A78C0F00BF3ADD /* AppDelegate.swift */; };
 		3DBA344D24A78C0F00BF3ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344C24A78C0F00BF3ADD /* SceneDelegate.swift */; };
 		3DBA344F24A78C0F00BF3ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA344E24A78C0F00BF3ADD /* ViewController.swift */; };
@@ -21,7 +29,15 @@
 /* Begin PBXFileReference section */
 		3D1510FD24AC37480062D699 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		3D1510FF24AC46510062D699 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3D4BCB7224D3DB1200965B81 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 3.json; path = JSON/3.json; sourceTree = SOURCE_ROOT; };
+		3D4BCB7324D3DB1200965B81 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 1.json; path = JSON/1.json; sourceTree = SOURCE_ROOT; };
+		3D4BCB7424D3DB1300965B81 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 2.json; path = JSON/2.json; sourceTree = SOURCE_ROOT; };
+		3D4BCB7524D3DB1300965B81 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = 4.json; path = JSON/4.json; sourceTree = SOURCE_ROOT; };
+		3D828BE624B9D66D006AB937 /* v83.1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = v83.1.json; sourceTree = "<group>"; };
+		3D828BE824B9D77D006AB937 /* DictionaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryData.swift; sourceTree = "<group>"; };
+		3D828BEA24B9DA12006AB937 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		3D86B78D24AD8BB700056F9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3D99421024AEDC47002B444A /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		3DBA344724A78C0F00BF3ADD /* Chinee Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinee Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA344A24A78C0F00BF3ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DBA344C24A78C0F00BF3ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4BCB7124D3DAF400965B81 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3D4BCB7324D3DB1200965B81 /* 1.json */,
+				3D4BCB7424D3DB1300965B81 /* 2.json */,
+				3D4BCB7224D3DB1200965B81 /* 3.json */,
+				3D4BCB7524D3DB1300965B81 /* 4.json */,
+				3D828BE624B9D66D006AB937 /* v83.1.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		3DBA343E24A78C0F00BF3ADD = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +90,17 @@
 		3DBA344924A78C0F00BF3ADD /* Chinee Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				3D4BCB7124D3DAF400965B81 /* JSON */,
+				3D828BE824B9D77D006AB937 /* DictionaryData.swift */,
+				3D828BEA24B9DA12006AB937 /* DataLoader.swift */,
+				3D1510FD24AC37480062D699 /* Shadow.swift */,
 				3DBA344A24A78C0F00BF3ADD /* AppDelegate.swift */,
 				3DBA344C24A78C0F00BF3ADD /* SceneDelegate.swift */,
-				3DBA344E24A78C0F00BF3ADD /* ViewController.swift */,
-				3D1510FD24AC37480062D699 /* Shadow.swift */,
-				3DBA345024A78C0F00BF3ADD /* Main.storyboard */,
-				3D86B78D24AD8BB700056F9A /* DetailViewController.swift */,
 				3D1510FF24AC46510062D699 /* TableViewCell.swift */,
+				3DBA344E24A78C0F00BF3ADD /* ViewController.swift */,
+				3D86B78D24AD8BB700056F9A /* DetailViewController.swift */,
+				3DBA345024A78C0F00BF3ADD /* Main.storyboard */,
+				3D99421024AEDC47002B444A /* HistoryTableViewController.swift */,
 				3DBA345324A78C1200BF3ADD /* Assets.xcassets */,
 				3DBA345524A78C1200BF3ADD /* LaunchScreen.storyboard */,
 				3DBA345824A78C1200BF3ADD /* Info.plist */,
@@ -134,8 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4BCB7624D3DB1300965B81 /* 3.json in Resources */,
+				3D4BCB7724D3DB1300965B81 /* 1.json in Resources */,
+				3D4BCB7924D3DB1300965B81 /* 4.json in Resources */,
 				3DBA345724A78C1200BF3ADD /* LaunchScreen.storyboard in Resources */,
 				3DBA345424A78C1200BF3ADD /* Assets.xcassets in Resources */,
+				3D4BCB7824D3DB1300965B81 /* 2.json in Resources */,
+				3D828BE724B9D66D006AB937 /* v83.1.json in Resources */,
 				3DBA345224A78C0F00BF3ADD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +188,11 @@
 				3DBA344F24A78C0F00BF3ADD /* ViewController.swift in Sources */,
 				3D1510FE24AC37480062D699 /* Shadow.swift in Sources */,
 				3D86B78E24AD8BB700056F9A /* DetailViewController.swift in Sources */,
+				3D99421124AEDC47002B444A /* HistoryTableViewController.swift in Sources */,
 				3DBA344B24A78C0F00BF3ADD /* AppDelegate.swift in Sources */,
 				3DBA344D24A78C0F00BF3ADD /* SceneDelegate.swift in Sources */,
+				3D828BE924B9D77D006AB937 /* DictionaryData.swift in Sources */,
+				3D828BEB24B9DA12006AB937 /* DataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

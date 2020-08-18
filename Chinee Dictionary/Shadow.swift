@@ -21,14 +21,14 @@ class ShadowView: UIView {
     
     func propertyOfView () {
         
-        layer.cornerRadius = 15
+        layer.cornerRadius = 10
         backgroundColor = .white
-        layer.shadowRadius = 4
+        layer.shadowRadius = 3
         layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOpacity = 0.4
+        layer.shadowOpacity = 0.2
         layer.masksToBounds = false
         clipsToBounds = false
-        layer.shadowOffset = CGSize(width: 2.0, height: 3)
+        layer.shadowOffset = CGSize(width: 1.0, height: 1)
     }
     
 }
