@@ -273,7 +273,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="characterLabel" destination="Gf4-O9-YKP" id="9fa-CE-Twh"/>
-                                            <outlet property="descriprionLabel" destination="3Hi-iw-9Ef" id="n86-vO-FuX"/>
+                                            <outlet property="pinyinLabel" destination="3Hi-iw-9Ef" id="02I-E3-q6k"/>
                                             <outlet property="viewOfCell" destination="CGg-VR-1mk" id="Kvp-Nk-luZ"/>
                                         </connections>
                                     </tableViewCell>
@@ -430,8 +430,8 @@
     </scenes>
     <resources>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
-        <image name="magnifyingglass" width="128" height="115"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="magnifyingglass" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="speaker.3" catalog="system" width="128" height="90"/>
         <image name="square.on.square" catalog="system" width="128" height="113"/>

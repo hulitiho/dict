@@ -10,6 +10,7 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var pinyinLabel: UILabel!
     @IBOutlet weak var characterLabel: UILabel!
     @IBOutlet weak var viewOfCell: UIView!
     override func awakeFromNib() {

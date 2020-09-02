@@ -106,13 +106,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         if searching {
             
             cell.characterLabel.text = searchArray[indexPath.row].character
-            cell.descriprionLabel.text = searchArray[indexPath.row].descriptions
+            cell.pinyinLabel.text = searchArray[indexPath.row].pinyin
+//            cell.descriprionLabel.text = searchArray[indexPath.row].descriptions
+            
             
         } else {
             
             cell.characterLabel.text = data[indexPath.row].character
-            cell.descriprionLabel.text = data[indexPath.row].descriptions
-            
+//            cell.descriprionLabel.text = data[indexPath.row].descriptions
+            cell.pinyinLabel.text = data[indexPath.row].pinyin
+
         }
         
          return cell
