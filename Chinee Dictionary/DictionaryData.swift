@@ -20,3 +20,4 @@ struct DictionaryDataFinal {
     var descriptions : String
     var isFavourite : Bool
 }
+
